@@ -15,11 +15,11 @@ import {
 describe('tests for UI notification action creators', () => {
 	it('should create proper action for login', () => {
 		const email = 'aumizy@gmail.com';
-		const password = 'ijklmn0';
+		const password = '1A2B3Cxyz';
 
 		expect(login(email, password)).toEqual({
 			type: LOGIN,
-			user: { email: 'aumizy@gmail.com', password: 'ijklmn0' },
+			user: { email: 'aumizy@gmail.com', password: '1A2B3Cxyz' },
 		});
 	});
 
